@@ -60,6 +60,10 @@ Every good wrapper needs a system tray icon so here's one:
 
 ![alt text](screenshots/v1/5.png)
 
+### Add To Your Desktop Menu!
+
+![alt text](screenshots/v1/6.png)
+
 ## Setup
 
 1. Clone this repository
