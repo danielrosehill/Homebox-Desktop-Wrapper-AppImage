@@ -1,0 +1,51 @@
+{
+  "name": "homebox-desktop",
+  "version": "1.0.0",
+  "description": "Desktop wrapper for Homebox web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux",
+    "build:linux": "electron-builder --linux",
+    "build:windows": "electron-builder --win",
+    "setup": "node setup.js"
+  },
+  "author": {
+    "name": "Daniel Rosehill",
+    "email": "maintainer@example.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.homebox.desktop",
+    "productName": "Homebox Desktop",
+    "asar": true,
+    "win": {
+      "target": [
+        "nsis",
+        "portable"
+      ],
+      "icon": "icons/image-256.png",
+      "publisherName": "Daniel Rosehill"
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Network",
+      "icon": "icons/image-256.png"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "artifactName": "${productName}-${version}-${platform}-${arch}.${ext}"
+  }
+}
