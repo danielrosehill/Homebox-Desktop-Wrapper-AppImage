@@ -1,6 +1,8 @@
 # Homebox Desktop Wrapper (Electron, Linux Desktop)
 
 [![Homebox Repo](https://img.shields.io/badge/Homebox-Repo-blue)](https://github.com/sysadminsmedia/homebox)
+[![Electron](https://img.shields.io/badge/Electron-v28.2.0-47848F)](https://electronjs.org)
+[![AppImage](https://img.shields.io/badge/AppImage-available-green)](https://appimage.org)
 
 ![alt text](screenshots/v1/2.png)
 
