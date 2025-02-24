@@ -1,6 +1,8 @@
 # Homebox Desktop Wrapper (Electron, Linux Desktop)
 
-![alt text](screenshots/v1/1.png)
+[![Homebox Repo](https://img.shields.io/badge/Homebox-Repo-blue)](https://github.com/sysadminsmedia/homebox)
+
+![alt text](screenshots/v1/2.png)
 
 24-Feb-25
 
@@ -27,14 +29,12 @@ Use `setup.js` to quickly populate your environment variables with your secrets 
 
 Having build out a crazy inventory with more than 4,000 items, I realise that a speedy UI is the name of the game when it comes to making an elaborate but wonderful system like Homebox *help* you to get organised and not bog you down in system upkeep.
 
-### Search By Asset ID
+### Search By Asset ID!
+
+[alt text](screenshots/v1/1.png)
 
 A feature which I would love to see added to the core software is asset ID lookup. But as a stopgap, I added a top navigation bar with a `search by asset ID` feature.
-
-**Asset ID lookup:**  
-
-![alt text](screenshots/v1/2.png)
-
+ 
 To search by asset ID in Homebox, you prepend a hashtag to the asset ID number. 
 
 Asset ID 1 becomes: https://yourhomebox.com/items?q=%231  
@@ -92,3 +92,6 @@ To build the application as an AppImage:
   - `Alt+R`: Reload page
   - `Alt+D`: Toggle DevTools
   - `Alt+Q`: Quit application
+
+---
+*Special thanks to the Homebox team for their amazing work in creating such a wonderful inventory management system!*
