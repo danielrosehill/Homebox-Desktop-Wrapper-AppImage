@@ -31,7 +31,7 @@ Having build out a crazy inventory with more than 4,000 items, I realise that a 
 
 ### Search By Asset ID!
 
-[alt text](screenshots/v1/1.png)
+ ![alt text](screenshots/v1/1.png)
 
 A feature which I would love to see added to the core software is asset ID lookup. But as a stopgap, I added a top navigation bar with a `search by asset ID` feature.
  
@@ -83,6 +83,8 @@ To build the application as an AppImage:
 ```bash
 ./build-appimage.sh
 ```
+
+To build to other Linux packages, modify the build script accordingly.
 
 ## Features
 
